@@ -9,7 +9,7 @@ Code is in notebooks. To start the notebook server run:
 This will build the docker container that runs the notebook server.
 
 ## Directory structure
-
+```
 ├── Makefile           <- Makefile with commands like `make create-all` or `make help`
 ├── README.md          <- The top-level README for developers using this project.
 ├── data               <- where data lives given for challenge
@@ -21,7 +21,7 @@ This will build the docker container that runs the notebook server.
 ├── src <- modules for models 
 │ 
 ├── Dockerfile <- docker file to build notebook environment
-
+```
 ## Docker commands
 The docker environment can be controlled using the make file. Use `$make help` to see list of commands.
 
